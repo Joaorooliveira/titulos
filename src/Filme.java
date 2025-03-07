@@ -1,8 +1,8 @@
 public class Filme extends Titulo{
 
     private int duracao;
-    public Filme(String nome, int anoDeLancamento, int duracao ) {
-        super(nome, anoDeLancamento);
+    public Filme(String nome, int anoDeLancamento,int avaliacao, int duracao ) {
+        super(nome, anoDeLancamento ,avaliacao);
         this.duracao = duracao;
     }
 

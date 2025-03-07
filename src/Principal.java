@@ -5,16 +5,16 @@ import java.util.List;
 public class Principal {
     public static void main(String[] args) {
 
-        Filme filme1 = new Filme("Oldboy",2000,190);
-        Filme filme2 = new Filme("Topgun",1980,200);
-        Filme filme3 = new Filme("Interstellar",2014,170);
-        Filme filme4 = new Filme("Perfect Days",2023,185);
+        Filme filme1 = new Filme("Oldboy",2000,10,190);
+        Filme filme2 = new Filme("Topgun",1980,2,200);
+        Filme filme3 = new Filme("Interstellar",2014,8,170);
+        Filme filme4 = new Filme("Perfect Days",2023,10,185);
 
 
-        Serie serie1 = new Serie("Lost",2000,9,10);
-        Serie serie2 = new Serie("Breaking Bad",2001,6,20);
-        Serie serie3 = new Serie("Game Of Thrones",2015,8,10);
-        Serie serie4 = new Serie("Supernatural",2002,12,15);
+        Serie serie1 = new Serie("Lost",2000,3,9,10);
+        Serie serie2 = new Serie("Breaking Bad",2001,10,6,20);
+        Serie serie3 = new Serie("Game Of Thrones",2015,8,8,10);
+        Serie serie4 = new Serie("Supernatural",2002,7,12,15);
 
         List<Titulo> titulos = new LinkedList<>();
 

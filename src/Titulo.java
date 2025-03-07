@@ -2,10 +2,20 @@ public class Titulo implements Comparable <Titulo>{
     private String nome;
 
     private int anoDeLancamento;
+    private int avaliacao;
 
-    public Titulo(String nome, int anoDeLancamento) {
+
+    public Titulo(String nome, int anoDeLancamento, int avaliacao) {
         this.nome = nome;
         this.anoDeLancamento = anoDeLancamento;
+        this.avaliacao = avaliacao;
+    }
+    public int getAvaliacao() {
+        return avaliacao;
+    }
+
+    public void setAvaliacao(int avaliacao) {
+        this.avaliacao = avaliacao;
     }
 
     public void setNome(String nome) {

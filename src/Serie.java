@@ -3,8 +3,8 @@ public class Serie extends Titulo{
     private int qtdTemporadas;
     private int qtdEpisodiosPorTemporada;
 
-    public Serie(String nome, int anoDeLancamento,int qtdTemporadas,int qtdEpisodiosPorTemporada) {
-        super(nome, anoDeLancamento);
+    public Serie(String nome, int anoDeLancamento,int avaliacao,int qtdTemporadas,int qtdEpisodiosPorTemporada) {
+        super(nome, anoDeLancamento,avaliacao);
         this.qtdTemporadas = qtdTemporadas;
         this.qtdEpisodiosPorTemporada = qtdEpisodiosPorTemporada;
     }
